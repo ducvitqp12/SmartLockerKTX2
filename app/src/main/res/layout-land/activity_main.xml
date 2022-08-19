@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="2dp"
+    android:paddingTop="2dp"
+    android:paddingRight="2dp"
+    android:paddingBottom="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/login"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_margin="0dp"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/login"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                />
+
+<!--            <ImageView-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="1dp"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/techcombank_logo_new" />-->
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_margin="0dp"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_button_png"
+                android:visibility="visible"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <TextView
+                android:id="@+id/tvPage"
+                android:text="1/2"
+                android:textStyle="bold"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <ImageButton
+                android:id="@+id/btnNext"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_margin="0dp"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/next_button_png" />
+
+            <ImageButton
+                android:id="@+id/btnPinCode"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_margin="0dp"
+                android:visibility="invisible"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pincode_icon" />
+
+            <ImageButton
+                android:id="@+id/btnRegister"
+                android:visibility="invisible"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_margin="0dp"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/register_icon" />
+
+            <ImageButton
+                android:id="@+id/btnDone"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_margin="0dp"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home_icon_red"
+                android:text="THOÁT" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnLocker11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name"/>
+
+                <Button
+                    android:id="@+id/btnLocker14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name"/>
+
+                <Button
+                    android:id="@+id/btnLocker16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name"/>
+
+                <Button
+                    android:id="@+id/btnLocker17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnLocker21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name"/>
+
+                <Button
+                    android:id="@+id/btnLocker25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnLocker31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:contentDescription="@string/app_name"/>
+
+                <Button
+                    android:id="@+id/btnLocker34"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name"
+                    />
+
+                <Button
+                    android:id="@+id/btnLocker35"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name"/>
+
+                <Button
+                    android:id="@+id/btnLocker36"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name" />
+
+                <Button
+                    android:id="@+id/btnLocker37"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/app_name"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>
